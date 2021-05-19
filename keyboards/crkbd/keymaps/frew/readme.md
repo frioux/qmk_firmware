@@ -8,6 +8,7 @@
  * `FN4` : M when tapped, layer 2 when held
  * `FN5` : ; when tapped, layer 1 when held
  * `FN6` : Play/Pause when tapped, Left Shift when held
+ * `FN7` : Enter when tapped, MOD when held
 
 ```
 
@@ -18,7 +19,7 @@
 |-----+-----+-----+-----+-----+-----+              |-----+-----+-----+-----+-----+-----|
 | FN6 |  z  |  x  |  c  | FN2 |  b  |              |  n  | FN4 |  ,  |  .  |  /  |RSFT |
 `-----+-----+-----+-----+-----+-----+-----|  |-----+-----+-----|-----+-----+-----+-----'
-                        | BSPC| MOD | FN3 |  |PGDN | ENT | SPC |
+                        | BSPC| MOD | FN3 |  |PGDN | FN7 | SPC |
                         `-----------------'  `-----+-----+-----'
 ```
 
