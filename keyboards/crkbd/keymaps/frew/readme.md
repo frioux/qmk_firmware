@@ -3,9 +3,9 @@
 ### Layer 0
 
  * `FN1`: A when tapped, Layer 1 when held
- * `FN2`: S when tapped, Layer 2 when held
+ * `FN2`: V when tapped, Layer 2 when held
  * `FN3`: Esc when tapped, Control when held
- * `FN4` : L when tapped, layer 2 when held
+ * `FN4` : M when tapped, layer 2 when held
  * `FN5` : ; when tapped, layer 1 when held
  * `FN6` : Play/Pause when tapped, Left Shift when held
 
@@ -14,9 +14,9 @@
 ,-----------------------------------.              ,-----------------------------------.
 |  `  |  q  |  w  |  e  |  r  |  t  |              |  y  |  u  |  i  |  o  |  p  |  -  |
 |-----+-----+-----+-----+-----+-----|              |-----+-----+-----+-----+-----+-----|
-| TAB | FN1 | FN2 |  d  |  f  |  g  |              |  h  |  j  |  k  | FN4 | FN5 |  '  |
+| TAB | FN1 |  s  |  d  |  f  |  g  |              |  h  |  j  |  k  |  l  | FN5 |  '  |
 |-----+-----+-----+-----+-----+-----+              |-----+-----+-----+-----+-----+-----|
-| FN6 |  z  |  x  |  c  |  v  |  v  |              |  n  |  m  |  ,  |  .  |  /  |RSFT |
+| FN6 |  z  |  x  |  c  | FN2 |  b  |              |  n  | FN4 |  ,  |  .  |  /  |RSFT |
 `-----+-----+-----+-----+-----+-----+-----|  |-----+-----+-----|-----+-----+-----+-----'
                         | BSPC| MOD | FN3 |  |PGDN | ENT | SPC |
                         `-----------------'  `-----+-----+-----'
