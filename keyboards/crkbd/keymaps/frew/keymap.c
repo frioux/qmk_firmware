@@ -47,7 +47,7 @@ LSFT_T(KC_MPLY),  KC_Z,    KC_X,    KC_C,LT(2,KC_V),  KC_B,                     
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_TRNS,    fCUT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS
+                                          KC_TRNS, KC_TRNS, KC_TRNS,    KC_PGUP, KC_TRNS, KC_TRNS
                                       //`--------------------------'  `--------------------------'
   ),
 
