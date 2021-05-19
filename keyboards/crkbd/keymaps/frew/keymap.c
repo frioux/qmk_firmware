@@ -43,7 +43,7 @@ LSFT_T(KC_MPLY),  KC_Z,    KC_X,    KC_C,LT(2,KC_V),  KC_B,                     
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                        fCOPY, KC_TRNS, KC_TRNS, KC_TRNS,  fPASTE, KC_TRNS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_TRNS, KC_TRNS, KC_TRNS, fCUT   , KC_TRNS, KC_TRNS,                      KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_LBRC, fCUT   , KC_RBRC, KC_TRNS,                      KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, KC_TRNS, KC_TRNS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_TRNS,    fCUT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_BSLS, KC_TRNS,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
