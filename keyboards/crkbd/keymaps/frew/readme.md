@@ -7,6 +7,7 @@
  * `FN3`: Esc when tapped, Control when held
  * `FN4` : L when tapped, layer 2 when held
  * `FN5` : ; when tapped, layer 1 when held
+ * `FN6` : Play/Pause when tapped, Left Shift when held
 
 ```
 
@@ -15,7 +16,7 @@
 |-----+-----+-----+-----+-----+-----|              |-----+-----+-----+-----+-----+-----|
 | TAB | FN1 | FN2 |  d  |  f  |  g  |              |  h  |  j  |  k  | FN4 | FN5 |  '  |
 |-----+-----+-----+-----+-----+-----+              |-----+-----+-----+-----+-----+-----|
-| LSFT|  z  |  x  |  c  |  v  |  v  |              |  n  |  m  |  ,  |  .  |  /  |RSFT |
+| FN6 |  z  |  x  |  c  |  v  |  v  |              |  n  |  m  |  ,  |  .  |  /  |RSFT |
 `-----+-----+-----+-----+-----+-----+-----|  |-----+-----+-----|-----+-----+-----+-----'
                         | BSPC| MOD | FN3 |  | PGDN| ENT | SPC |
                         `-----------------'  `-----+-----+-----'
