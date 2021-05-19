@@ -2,14 +2,16 @@
 
 ### Layer 0
 
- * `FN1`: A when tapped, Layer 1 when held
- * `FN2`: V when tapped, Layer 2 when held
- * `FN3`: Esc when tapped, Control when held
- * `FN4` : M when tapped, layer 2 when held
- * `FN5` : ; when tapped, layer 1 when held
- * `FN6` : Play/Pause when tapped, Left Shift when held
- * `FN7` : Enter when tapped, MOD when held
- * `FN8` : Space when tapped, Control when held
+ combo | tap        | hold
+ ----- | ---------- | ----
+ `FN1` | `a`        | Layer 1
+ `FN2` | `v`        | Layer 2
+ `FN3` | Escape     | Control
+ `FN4` | `m`        | Layer 2
+ `FN5` | `;`        | Layer 1
+ `FN6` | Play/Pause | Left Shift
+ `FN7` | Enter      | MOD
+ `FN8` | Space      | Control
 
 ```
 
