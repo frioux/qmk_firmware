@@ -4,3 +4,5 @@ OLED_DRIVER_ENABLE  = yes
 LTO_ENABLE          = yes
 EXTRAKEY_ENABLE     = yes
 MOUSEKEY_ENABLE     = no
+
+RGB_MATRIX_CUSTOM_USER = yes

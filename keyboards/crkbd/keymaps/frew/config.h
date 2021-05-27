@@ -59,7 +59,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define RGB_MATRIX_VAL_STEP 8
 #    define RGB_MATRIX_SPD_STEP 10
 
-// #define DISABLE_RGB_MATRIX_BREATHING
 // #define DISABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
 // #define DISABLE_RGB_MATRIX_TYPING_HEATMAP
 #define DISABLE_RGB_MATRIX_ALPHAS_MODS
@@ -69,6 +68,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DISABLE_RGB_MATRIX_BAND_SPIRAL_SAT
 #define DISABLE_RGB_MATRIX_BAND_SPIRAL_VAL
 #define DISABLE_RGB_MATRIX_BAND_VAL
+#define DISABLE_RGB_MATRIX_BREATHING
 #define DISABLE_RGB_MATRIX_CYCLE_ALL
 #define DISABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
 #define DISABLE_RGB_MATRIX_CYCLE_OUT_IN
