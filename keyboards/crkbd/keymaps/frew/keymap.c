@@ -17,6 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include QMK_KEYBOARD_H
+#include <stdio.h>
 
 enum custom_keycodes {
     fCOPY = SAFE_RANGE,
@@ -34,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
 LSFT_T(KC_MPLY),LT(2,KC_Z),KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT,LT(2,KC_SLSH),KC_RSFT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_BSPC, KC_LGUI, LCTL_T(KC_ESC),KC_PGDN,RGUI_T(KC_ENT), KC_SPC
+                                          KC_BSPC, KC_LGUI, LCTL_T(KC_ESC),RGB_MOD,RGUI_T(KC_ENT), KC_SPC
                                       //`--------------------------'  `--------------------------'
 
   ),
@@ -78,7 +79,7 @@ LSFT_T(KC_MPLY),LT(2,KC_Z),KC_X,    KC_C,    KC_V,    KC_B,                     
 
 #ifdef OLED_DRIVER_ENABLE
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
-  if (!is_master) {
+  if (!is_keyboard_master()) {
     return OLED_ROTATION_180;  // flips the display 180 degrees if offhand
   }
   return rotation;
@@ -164,7 +165,7 @@ void oled_render_logo(void) {
 }
 
 void oled_task_user(void) {
-    if (is_master) {
+    if (is_keyboard_master()) {
         oled_render_layer_state();
         oled_render_keylog();
     } else {

@@ -1,4 +1,6 @@
-RGBLIGHT_ENABLE     = yes
+RGB_MATRIX_ENABLE   = yes
+RGBLIGHT_ENABLE     = no
 OLED_DRIVER_ENABLE  = yes
 LTO_ENABLE          = yes
 EXTRAKEY_ENABLE     = yes
+MOUSEKEY_ENABLE     = no
