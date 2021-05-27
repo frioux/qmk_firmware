@@ -109,6 +109,29 @@ void oled_render_layer_state(void) {
             oled_write_ln_P(PSTR("Adjust"), false);
             break;
     }
+
+    oled_write_P(PSTR("Effect: "), false);
+    switch (rgb_matrix_get_mode()) {
+            case RGB_MATRIX_CUSTOM_off:
+            oled_write_ln_P(PSTR("off"), false);
+            break;
+            case RGB_MATRIX_CUSTOM_dim:
+            oled_write_ln_P(PSTR("dim"), false);
+            break;
+            case RGB_MATRIX_CUSTOM_bright:
+            oled_write_ln_P(PSTR("bright"), false);
+            break;
+            case RGB_MATRIX_SOLID_REACTIVE_SIMPLE:
+            oled_write_ln_P(PSTR("reactive"), false);
+            break;
+            case RGB_MATRIX_TYPING_HEATMAP:
+            oled_write_ln_P(PSTR("heatmap"), false);
+            break;
+            default:
+            oled_write_ln_P(PSTR("???"), false);
+            break;
+    }
+
 }
 
 
